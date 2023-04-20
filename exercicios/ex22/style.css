@@ -1,0 +1,49 @@
+
+
+main h1 {
+    background-color: lightblue;
+    color: black;
+}
+
+main h2 {
+    background-color: lightslategray;
+    color: white;
+}
+/*Celulars*/
+@media (max-width: 450px) {
+    main h1 {
+        background-color: lightcoral;
+        color: blue;
+    }
+    main h2 {
+        background-color: limegreen;
+        color: black;
+    }
+}
+
+/*Tablets*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    main h1 {
+        background-color: blueviolet;
+        color: black;
+    }
+    main h2 {
+        background-color: lightseagreen;
+        color: brown;
+    }
+}
+
+nav {
+    background-color: darkgray;
+    padding: 10px;
+    justify-content: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
